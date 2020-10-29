@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+}
+
+/* ----------------------navbar---------------------------------------------------- */
+.sidebar{
+    background-color: rgb(0, 0, 0);
+    height: 10vh;
+    position: relative;
+    top: 0px;
+    text-align: center;
+    width: 100vw;
+    
+}
+.sidebar li{
+    display: inline;
+   
+}
+.sidebar li a{
+   margin: 20px;
+   position: relative;
+   top: 15px;
+   text-decoration: none;
+   color: crimson;
+   font-weight: bolder;
+   font-size: 1em;
+}
+.sidebar li a:hover{
+    background-color: crimson;
+    color: whitesmoke;
+    padding: 15px 25px 15px 25px;
+}
+
+
+/* ------------------------main container-------------studentrequeststatus----------- */
+
+.maincontainer{
+    width: 100vw;
+    
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.maincontainer .container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 85vh;
+    border:1px solid grey;
+    box-shadow: 5px 5px 10px 5px rgb(192, 177, 177);
+    position: relative;
+    background-color: rgb(238, 229, 229);
+    top: 30px;
+    
+
+}
+.maincontainer .container1 form{
+    
+    position: relative;
+    top: -40px;
+}
+.maincontainer .container1 form input{
+    width: 18vw;
+    height: 35px;
+    border: 1px solid black;
+    background-color: rgb(218, 227, 231);
+    
+}
+
+.maincontainer .container1 .tablecontainer{
+    
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    
+}
+.maincontainer .container1 table th{
+    font-size: 17px;
+    padding: 10px 100px 10px 0px;
+    border-bottom: 1px solid black;
+    
+}

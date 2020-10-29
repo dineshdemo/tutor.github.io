@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+}
+a{
+    
+}
+
+
+/* iiiiiiiiiiiiiiinnnnnnnnnnnnnnnndddddddddddddddddddddeeeeeeeeeeeeeeeeeeeeeexxxxxxxxxxxxxxxx */
+
+
+/* -------------------------------- index navbar section-------------------------------------- */
+.profilenavbar{
+    background-color: black;
+    height: 40px;
+    
+    
+    
+    
+    
+}
+.profilenavbar h1{
+    color: whitesmoke;
+    font-size: 32px;
+    position: relative;
+    left: 0px;
+}
+.profilenavbar span{
+    color: crimson;
+}
+.profilenavbar li{
+    display: block;
+}
+.profilenavbar a{
+    text-decoration: none;
+    float: right;
+    margin: 15px;
+    position: relative;
+    top: -60px;
+    right: 0px;
+    color: whitesmoke;
+    
+    padding: 7px;
+}
+.profilenavbar a:hover{
+    background-color: crimson;
+    
+
+}
+/* ---------------------------------header-container-------------------------------------- */
+
+.header{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8, 8, 8);
+    position: relative;
+    top: -76px;
+}
+.header .container1{
+    text-align: center;
+    position: relative;
+    top: -14px;
+}
+.header .container1 h1{
+    font-size: 110px;
+    color: whitesmoke;
+}
+.header .container1 span{
+    color: crimson;
+}
+.header .container1 h3{
+    font-size: 35px;
+    color: whitesmoke;
+    letter-spacing: 3px;
+}
+
+.header .container1 a{
+    background-color:green;
+    padding: 15px 50px 15px 50px;
+    position: relative;
+    top: 15px;
+    margin: 25px;
+    border: 1px solid crimson;
+    color: crimson;
+    background-color: transparent;
+}
+.header .container1 a:hover{
+    background-color: crimson;
+    color: whitesmoke;
+}
+
+/* ----------------------------------service container------------------------ */
+.service .container1{
+    
+}
+.service{
+   
+    align-items: center ;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: -50px 50px 0px 50px;
+    height: auto;
+
+}
+.service h1{
+    font-size: 43px;
+}
+.service h1 span{
+    color: crimson;
+}
+.service p{
+    background-color: rgb(199, 195, 195);
+    padding: 20px 50px 14px 50px;
+    margin: 0px 50px 0px 50px;
+    
+}
+/* ---------------------------------account section--------------------------- */
+.account {
+    display: flex;
+    
+    text-align: center;
+    justify-content: center;
+    padding: 20px 0px 0px 0px ;
+}
+.account input{
+    width: 40vw;
+    height: 50px;
+    margin: 8px 0px 8px 0px;
+    border: 1px solid skyblue;
+}
+.account button{
+    width: 15vw;
+    height: 40px;
+    background-color: red;
+    border: 1px solid red;
+    color:  whitesmoke;
+    margin-top: 30px;
+}
+.account button:hover{
+    background-color: green;
+    border: 1px solid green;
+    
+}
+.account form{
+    background-color: white;
+    padding: 20px 20px 40px 20px;
+    box-shadow: 10px 10px 10px 10px rgb(221, 214, 214);
+    margin: 0px 0px 50px 0px;
+    
+}
+.account .container1 a{
+    background-color: blue;
+    padding: 9px 40px 11px 40px;
+    position: relative;
+    top: -1px;
+}
+/* -----------------------------feedback---------------------------------------------- */
+.feedback{
+    text-align: center;
+}
+.feedback .container1{
+    background-color: rgb(221, 210, 210);
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+
+}
+.feedback .container1 .card{
+    width: 250px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 6px 6px 6px 6px whitesmoke;
+    margin: 50px 30px 50px 30px;
+    background-color: whi;
+    padding: 10px;
+
+}
+.feedback .container1 .card img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px;
+
+}
+.feedback .container1 .card h4{
+    color: black;
+    font-weight: bolder;
+    
+
+}
+.feedback .container1 .card p{
+    
+    color: black;
+}
+/* ------------------------------------contact us ------------------------ */
+
+.contactus {
+    display: flex;
+    
+    text-align: center;
+    justify-content: center;
+    
+
+}
+.contactus .container1{
+    background-color: rgb(39, 39, 240);
+    text-align: center;
+    width: 100vw;
+    height: 615px;
+   
+  
+    justify-content: center;
+
+}
+.contactus .container1 input{
+    width: 50vw;
+    height: 50px;
+    margin: 10px 0px 5px 0px;
+   
+
+}
+.contactus .container1 textarea{
+    width: 50vw;
+    margin-top: 15px;
+} 
+.contactus .container1 button{
+    width: 27vw;
+    height: 50px;
+    background-color: rgb(226, 21, 21);
+    border: 1px solid red;
+    color: whitesmoke;
+    margin: 20px 0px 20px 0px;
+}
+.contactus .container1 button:hover{
+    background-color: red;
+    border: 1px solid crimson;
+    color: white;
+   
+}
+.contactus .container1 form{
+    margin-top: 60px;
+}
+.contactus .container1 h1{
+    color: whitesmoke;
+    position: relative;
+    top: 25px;
+
+}
+.contactus .container1 a{
+    background-color:green;
+    padding: 11px 70px 11px 70px;
+    position: relative;
+    top: -1px;
+}
+/* ---------------------------footer---------------------------------- */
+.footer{
+    display: block;
+    background-color: black;
+    color: whitesmoke;
+   
+    
+}
+/* ---------------------------------------login page section--------------- */
+ .login {
+     
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     width: 100vw;
+     height: 100%;
+     
+
+ }
+ .login .container1{
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     
+
+ }
+ .login .container1 .container2 input{
+      width: 30vw;
+      height: 40px;  
+      margin: 10px ;
+      
+ }
+ .login .container1 .container2{
+     background-color: rgb(214, 209, 209);
+     position: relative;
+     top: 0px;
+     padding: 50px 20px 50px 20px;
+     box-shadow: 15px 15px 15px 15px rgb(177, 173, 173);
+     width: 50vw;
+ }
+ .login .container1 .container2 button{
+     width: 20vw;
+     height: 40px;
+     margin-top: 40px;
+     border: 2px solid crimson;
+     color: whitesmoke;
+     background-color: crimson;
+ }
+ .login .container1 .container2 button:hover{
+     background-color: rgb(187, 0, 37);
+     border: 2px solid rgb(187, 0, 37);
+ }
+
+ .login .container1 .container2 h1{
+     color: black;
+     font-weight: bolder;
+     font-size: 60px;
+     position: relative;
+     bottom: 30px;
+ }
+ .login .container1 .container2 h1 span{
+     color: crimson;
+ }
+ 
+
+
+
+
+
+
+
+

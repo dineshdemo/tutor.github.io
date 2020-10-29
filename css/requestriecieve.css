@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+}
+
+/* -------------main container    --------------navbar------------*/
+.sidebar{
+    background-color: rgb(0, 0, 0);
+    height: 10vh;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    
+}
+.sidebar li{
+    display: inline;
+   
+}
+.sidebar li a{
+   margin: 20px;
+   position: relative;
+   top: 15px;
+   text-decoration: none;
+   color: crimson;
+   font-weight: bolder;
+   font-size: 1em;
+}
+.sidebar li a:hover{
+    background-color: crimson;
+    color: whitesmoke;
+    padding: 15px 25px 15px 25px;
+}
+/* ***********************************end navbar------------------------- */
+
+/* -------------------main container------------ */
+
+.maincontainer{
+   
+    display: flex;
+    width: 100vw;
+    position: relative;
+    top: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+
+/* ------------------rightbarbody------------- */
+.rightbarbody{
+    background-color: rgb(168, 162, 162);
+    display: flex;
+    justify-content: center;
+    height: auto;
+    flex-wrap: wrap;
+    
+    
+}
+.rightbarbody input{
+    border: 1px solid skyblue;
+    margin-bottom: 10px;
+}
+
+/* --------------table section--------- */
+.maincontainer table button{
+    border: 2px solid crimson;
+    color: whitesmoke;
+    padding: 2px 5px 2px 5px;
+    border-radius: 4px;
+    background-color: crimson;
+    font-weight: bolder;
+    margin: 3px;
+}
+.maincontainer table button:hover{
+    background-color: green;
+    border: 2px solid green;
+
+}
+
+
+

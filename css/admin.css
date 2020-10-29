@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+}
+
+
+
+/* aaaaaaaaaaaaaaddddddddddddddmmmmmmmmmmmmmmmmiiiiiiiiiiiiiiiiiiiiinnnnnnnnnnnnnnn */
+.admincontainer{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+/* -------------------------------navbar---------------------------------- */
+
+/* -----------------------------end navbar------------------------------------- */
+    /* NOTE : NAVBAR CONTENT CSS IS IN "REQUESTRIECIEVE.CSS"    FILE */
+/* ---------------------------------body section----------------------------- */
+
+.body{
+    width: 65vw;
+    height: 95vh;
+    background-color: rgb(227, 243, 243);
+    position: relative;
+    top: 46px;
+    right: -397px;
+}
+.body .cardcontainer {
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.body .cardcontainer .card{
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 230px;
+    height: 200px;
+    margin: 30px 20px 0px 20px;
+    border-radius: 10px;
+    box-shadow: 9px 7px 17px 6px rgb(192, 187, 187);
+}
+
+
+.body .cardcontainer .card h3{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: black;
+    font-weight: bolder;
+    position: relative;
+    top: 30px;
+
+}
+.body .cardcontainer .card h1{
+    position: relative;
+    top: 30px;
+    font-weight: bolder;
+    color: crimson;
+}
+.body .card a{
+    margin-top: 62px;
+    background-color: crimson;
+    padding: 14px 96px 14px 96px;
+    color: whitesmoke;
+    font-weight: bolder;
+    text-decoration: none;
+    color: whitesmoke;
+}
+/* -------------------------------list of employee------------------------------- */
+.body .listcontainer{
+    margin: 80px 0px 0px 0px;
+}
+
+
+/* --------------------------- admin requeste section---------------------------- */
+
+.body h1{
+    color: red;
+}

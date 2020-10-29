@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+}
+
+/* *********************************student profile sidebar******************************** */
+
+
+
+/* ----------------------------------studedent profile navbar--------------------- */
+
+ .sidebar{
+     background-color: rgb(0, 0, 0);
+     height: 10vh;
+     position: relative;
+     top: 20px;
+     text-align: center;
+     
+ }
+ .sidebar li{
+     display: inline;
+    
+ }
+ .sidebar li a{
+    margin: 20px;
+    position: relative;
+    top: 15px;
+    text-decoration: none;
+    color: crimson;
+    font-weight: bolder;
+    font-size: 1em;
+ }
+ .sidebar li a:hover{
+     background-color: crimson;
+     color: whitesmoke;
+     padding: 15px 25px 15px 25px;
+ }
+ /* -----------------------------------student profile---------------------------- */
+ .spcontainer{
+     background-color: rgb(151, 151, 223);
+     /* justify-content: center; */
+     text-align: center;
+     /* align-items: center; */
+     position: relative;
+     bottom: -20px;
+    
+     
+     
+ }
+
+.spcontainer input{
+    width: 30vw;
+    height: 40px;
+    
+}
+.spcontainer label{
+    margin-top: 5px;
+    font-weight: bolder;
+}
+.spcontainer button{
+    font-weight: bolder;
+    padding: 5px 30px 5px 30px ;
+    margin-top: 10px;
+    color: white;
+    background-color: crimson;
+    border: 2px solid crimson;
+}
+.spcontainer button:hover{
+    background-color: rgb(148, 3, 32);
+    border: 2px solid rgb(148, 3, 32);
+}
+
+/* =====================================srequest main container================================ */
+
+.container{
+   
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+ .container .tablecontainer{
+    display: flex;
+    flex-wrap: wrap;
+    height: 90vh;
+    background-color: whitesmoke; 
+    margin-top: 20px;
+    box-shadow: 5px 5px 20px 5px rgb(194, 182, 182);
+} 
+.container .t1 table input{
+    width: 25vw;
+    height: 30px;
+    margin: 0px 15px 0px 15px;
+}
+
+.container .t2 table input{
+    width: 52.5vw;
+    height: 30px;
+}
+.container .t3 table input{
+    width: 16vw;
+    height: 30px;
+}
+.container .t4 table select {
+    width: 52.5vw;
+    height: 30px;
+    margin: 0px 15px 0px 15px;
+
+}
+.container .t5 table textarea{
+    width: 52.5vw;
+    height: 100px;
+    margin: 0px 0px 0px 12px;
+}
+    
+.container th{
+    padding: 10px 0px 3px 14px ;
+}
+.container .t5 button{
+    background-color: green;
+    border: 2px solid green;
+    border-radius: 3px;
+    color: whitesmoke;
+    margin: 10px 0px 0px 12px;
+    padding: 10px 25px 10px 25px;
+    font-weight: bolder;
+}
+.container .t5 button:hover{
+    background-color: rgb(1, 87, 1);
+    border: 2px solid rgb(1, 87, 1);
+}
+/* =========================request recipt==================================== */
+.recipt{
+    
+    width: 100vw;
+    height: 90vh;
+    justify-content: center;
+    display: flex;
+}
+.recipt .container1{
+    width: 40vw;
+    height: 78vh;
+    background-color: whitesmoke;
+    position: relative;
+    top: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    top: 50px;
+    box-shadow: 5px 5px 20px 5px rgb(194, 182, 182);
+}
+.recipt h1{
+    color: black;
+    position: relative;
+    top: 10px;
+    /* font-weight: bolder; */
+}
+.recipt .table{
+    
+    width:40vw;
+    text-align: left;
+    position: relative;
+    top: 30px;
+
+
+}
+.recipt .table tr th{
+    width: 20vw;
+    font-weight: bolder;
+}
+.recipt input{
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    color: whitesmoke;
+    border: 2px solid black;
+    position: relative;
+    top: 30px;
+    
+}
+
+/* --------------------student request status------------------ */
+
+.searchcontainer h1{
+    color: red;
+
+}
